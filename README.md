@@ -18,7 +18,7 @@
 1. 푸시
     저장 됐나 확인
     내용을 추가한다
-    스테이징: git add .
+    git add .
     git commit -m "커밋한 내용 설명을 적음"
     git push origin main
     인증
