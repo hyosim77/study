@@ -8,7 +8,6 @@
 1. 클론 따기
     터미널에서 빈 폴더에 들어감
     git init
-    git remote add origin https://github.com/hyosim77/study.git
     git clone --recursive https://github.com/hyosim77/study.git
 
 1. config (최초이후론 다신 안해도 됨)
@@ -21,4 +20,5 @@
     내용을 추가한다
     스테이징: git add .
     git commit -m "커밋한 내용 설명을 적음"
-    git push origin master
+    git push origin main
+    인증
