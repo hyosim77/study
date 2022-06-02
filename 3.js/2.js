@@ -1,11 +1,46 @@
 function act () {
     // 변수 선언
     // let a = 1 // 변수.
-    // const b = 1 // 상수(값이 안 바뀜). 
+    // const b = 1 // 상수(값이 안 바뀜).
 
     // 데이터 타입
     // let으로 선언, 일반 데이터타입 (값 참조형) : Number, String, Boolean
     // const로 선언, 객체 데이터타입 (주소 참조형) : Array, Object
+
+    //문자열
+    let str = 'Hello world';
+    let n = str.charAt(2) //charAt은 문자의 인덱스번호 자리의 값을 구해온다
+    console.log(n);
+    let string = 'Hello world';
+    let string1 = 'javascript';
+    let string2 = str.indexOf('world');//string의 몇번째 인덱스에서 시작되는지 결과는 6
+    let newStr1 = string.concat(string1);//변수에 변수를 붙임.
+    let n1 = string.charAt(2);
+    console.log(string2); // 6
+    console.log(newStr1); // Hello worldjavascript
+    console.log(n1) // l 
+    /*
+        setTimeout(할일, 시간);
+        시간이 지나면 할일 = 함수
+        할일 = function(){ 실제로 할일 }
+        3초 3000
+        실제로 할일 = alert('힘들죠');
+        clearTimeout(할일의 이름); -> 타임아웃을 멈추고싶을때
+    */
+    let timer = setTimeout(function () {
+        alert('힘들죠');
+    }, 3000);
+    clearTimeout(timer);
+
+    /*
+        일정시간마다 할일
+        setInterval(할일, 시간);
+    */
+    let timer2 = setInterval(function () {
+        alert('힘들죠');
+    }, 3000);
+
+
     let a = 12 // 연산 가능
     // 연산자 종류
     let test = 0
