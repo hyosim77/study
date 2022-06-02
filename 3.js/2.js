@@ -1,4 +1,4 @@
-function act() {
+function act () {
     // 변수 선언
     // let a = 1 // 변수.
     // const b = 1 // 상수(값이 안 바뀜). 
@@ -25,7 +25,8 @@ function act() {
     arr.push(7)
     // 배열의 삭제
     arr.pop() // 마지막꺼 하나 삭제
-    arr.splice(2, 2) // [1, 2, 5, 6]
+    arr.slice(1, 3) // [1, 4, 5]
+    arr.splice(2, 2) // [1, 2, 5]
     // 배열의 값 출력
     console.log(arr)
     console.log(arr[3])
@@ -50,3 +51,6 @@ function act() {
         console.log(userInfo[i].no, '번째 고객 이름: ', userInfo[i].name)
     }
 }
+
+
+
