@@ -1,0 +1,8 @@
+케이스
+small-case 소문자 large-case 대문자
+
+케이스룰 , 케이스관습
+camel case : goToSchool // 변수, 함수
+pascal case : GoToSchool // 클래스 이름
+kebab case : go-to-school // 폴더명, 파일명
+snake case : go_to_school // 깃 브랜치명, 커밋명

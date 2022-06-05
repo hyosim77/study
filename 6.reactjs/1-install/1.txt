@@ -1,0 +1,16 @@
+React 정의
+
+페스북에서 개발한 js spa라이브러리 #라이브러리 개념 정리하기!!
+State: 저장공간
+    저장공간 관리 : redux, mobx 중 택1
+    비동기 처리 : redux-saga redux-thunk, reactQuery 
+Life cycle method: react hooks + 함수형 컴포넌트, 클래스형 컴포넌트 중 택1
+    함수의 실행 시점
+    create컴퍼넌트가 열릴때, 
+    update내용이 변경될 때, 
+    mount변경된 내용으로 다시로드 
+    destroy닫힐 때)
+장점 : 커뮤니티성, 구조가 단순(ts,tsx)
+
+React app 설치방법
+    npx create-react-app app1

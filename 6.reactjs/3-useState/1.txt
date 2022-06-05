@@ -1,0 +1,4 @@
+리액트 훅스hooks : useState (hooks에서 사용하는 특별한 변수)
+
+2019년도에 도입됨.
+라이프사이플이는 메소드 : 함수를 적용하는 시점 create, update, mount, 
