@@ -1,6 +1,9 @@
 function act () {
     alert('누르지말라니깐!!!');
 }
+act() // -> 함수 실을 시켜주지 않으면 안됨.
+console.log(act)
+
 // 변수 선언
 // let a = 1 // 변수.
 // const b = 1 // 상수(값이 안 바뀜).
