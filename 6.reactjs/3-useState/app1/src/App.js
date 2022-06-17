@@ -12,7 +12,7 @@ function App () {
 
   return (
     <div className="App">
-      {id} {pw}
+      로근인
       <form onSubmit={onSubmit}>
         <input
           type='text'
