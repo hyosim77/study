@@ -5,6 +5,7 @@ function App () {
     }
     console.log('event.keyCode: ', event.keyCode);
     // 엔터키를 쳤을 때, onSubmit을 실행
+    //왜 출력이 event.keyCode:  49 event.keyCode: 51 ??
   }
 
 
