@@ -1,3 +1,0 @@
-Nodejs 는 js 런타임(실행환경)입니다. * browser도 런타입입니다.
-
-node 1.js
