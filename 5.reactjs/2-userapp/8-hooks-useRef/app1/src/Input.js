@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import "./Input.css";
+import "./input.css";
 
 function Input() {
   // state만들기 :  inputs 만들고, 초기값 inputs = {name:'', nickname:''}
